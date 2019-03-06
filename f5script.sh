@@ -5,9 +5,9 @@ today_ucs="`date "+%m_%d_%y"`.ucs"
 tmsh save /sys ucs Backup_LNBIGIPA$today_ucs
 
 ftp -n <<EOF
-open jerftpina.muni.jerusalem.muni.il
-user "kikardom\tasht" 123123
-cd GibConf
+open ftp.com
+user "user" "pass"
+cd backup
 cd F5
 binary
 lcd /var/local/ucs
